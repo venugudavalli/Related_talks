@@ -10,18 +10,18 @@ Go to directory where main.py is located
 
 #### set system variable
 
-run website service
+**run flask service**
 
-/ted-app/app/tedapp$ flask run 
+    /ted-app/app/tedapp$ flask run
 
-copy the url and paste it on browser to go to index page
+**copy the url and paste it on browser to go to index page**
 
-index.html - shows list of talks.
+    index.html - shows list of talks.
 
-  drill down on taskid to go to talk details
+      drill down on taskid to go to talk details
   
-detail.html - disply talk speakers, related talks list
+    detail.html - disply talk speakers, related talks list
 
-  drill down on related talk id to got talk details page
+    drill down on related talk id to got talk details page
   
-  drill down on speakerid to go to speakerdetails.  
+    drill down on speakerid to go to speakerdetails.  
