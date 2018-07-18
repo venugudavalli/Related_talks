@@ -22,6 +22,8 @@ Go to directory where main.py is located
   
     detail.html - disply talk speakers, related talks list
 
-    drill down on related talk id to got talk details page
+        drill down on related talk id to got talk details page
   
-    drill down on speakerid to go to speakerdetails.  
+        drill down on speakerid to go to speakerdetails.
+        
+    speaker page will show speaker details and speaker talks
