@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Talks by {{ fname }} {{ lname }}{% endblock %}</h1>
+  <h2>{{ desc }}</h2>
+{% endblock %}
+
+{% block content %}
+<p>{{ bio }}</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    {% for talk in talks %}
+    <tr>
+      <th scope="row"><a href="{{ url_for('talks.details', id=talk['id']) }}">{{ talk['id'] }}</a></th>
+      <td>{{ talk['title'] }}</td>
+      
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
