@@ -10,6 +10,8 @@ Go to directory where main.py is located
 
 #### set system variable
 
+    export FLAKS_APP=main.py
+
 **run flask service**
 
     /ted-app/app/tedapp$ flask run
